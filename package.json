@@ -1,16 +1,27 @@
 {
-  "name": "callback",
+  "name": "async_callbacks",
   "version": "1.0.0",
-  "description": "working with async",
+  "description": "making a request with async callbacks",
   "main": "src/index.js",
   "scripts": {
-    "callback": "node src/callback/index.js"
+    "callback:challenge": "node src/callbacks/index.js",
+    "promise": "node src/promises/promises.js",
+    "promise:challenge": "node src/promises/challenge.js",
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "PracticeJS"
   },
   "keywords": [
-    "callbacks",
-    "promise",
-    "async"
+    "async",
+    "promises",
+    "callbacks"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
